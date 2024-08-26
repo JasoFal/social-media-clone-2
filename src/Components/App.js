@@ -1,9 +1,13 @@
 import React from 'react';
 import Header from './Header';
+import NameCard from './NameCard';
 
 function App() {
   return (
-    <Header />
+    <React.Fragment>
+      <Header />
+      <NameCard />
+    </React.Fragment>
   );
 }
 
