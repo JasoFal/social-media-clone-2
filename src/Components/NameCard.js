@@ -1,4 +1,5 @@
 import React from "react";
+import Bio from "./Bio";
 
 function NameCard() {
   const name = "Kellie A. Corrigan"
@@ -8,6 +9,8 @@ function NameCard() {
       <a href="">Tweets</a>
       <a href="">Followers</a>
       <a href="">Fololowers</a>
+      <hr />
+      <Bio />
     </React.Fragment>
   );
 }
