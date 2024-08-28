@@ -7,10 +7,22 @@ import FriendButtonList from './FriendButtonList';
 function App() {
   return (
     <React.Fragment>
-      <Header />
-      <NameCard />
-      <PostHistory />
-      <FriendButtonList />
+      <div class="container">
+        <div class="row">
+          <Header />
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <NameCard />
+          </div>
+          <div class="col-lg-4">
+            <PostHistory />
+          </div>
+          <div class="col-lg-4">
+            <FriendButtonList />   
+          </div>
+        </div>
+      </div>
     </React.Fragment>
   );
 }

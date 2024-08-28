@@ -20,7 +20,7 @@ function PostHistory() {
   return (
     <React.Fragment>
       <form>
-        <input type="string" id="posthist" name="posthist" placeholder="What's happening?"/>
+        <input type="string" id="post-hist" name="post-hist" placeholder="What's happening?"/>
       </form>
       <hr/>
       {mainPostList.map((post, index) =>
